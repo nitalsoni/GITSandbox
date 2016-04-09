@@ -11,6 +11,8 @@ namespace GITSandboxApp
         static void Main(string[] args)
         {
             //some changes 
+
+            //my 2nd commit
         }
     }
 }
