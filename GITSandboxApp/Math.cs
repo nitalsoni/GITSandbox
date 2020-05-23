@@ -28,6 +28,15 @@ namespace GITSandboxApp
             return a / b;
         }
 
+        public int Abs(int a)
+        {
+            if (a < 1)
+                return a * -1;
+            else
+                return a;
+        }
+
+
         public int Mod(int a, int b)
         {
             return a % b;
