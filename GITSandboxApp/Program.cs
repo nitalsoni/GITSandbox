@@ -10,13 +10,7 @@ namespace GITSandboxApp
     {
         static void Main(string[] args)
         {
-            //some changes 
-
-            //my 2nd commit
-
-            //3rd commit 
-
-            //branch commit
+         //Fresh start
         }
     }
 }
