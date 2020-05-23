@@ -27,5 +27,14 @@ namespace GITSandboxApp
         {
             return a / b;
         }
+
+        public int Abs(int a)
+        {
+            if (a < 1)
+                return a * -1;
+            else
+                return a;
+        }
+
     }
 }
