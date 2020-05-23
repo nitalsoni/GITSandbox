@@ -10,7 +10,8 @@ namespace GITSandboxApp
     {
         static void Main(string[] args)
         {
-         //Fresh start
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ReadKey();
         }
     }
 }
