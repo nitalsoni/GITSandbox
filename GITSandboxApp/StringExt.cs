@@ -27,5 +27,10 @@ namespace GITSandboxApp
         {
             return s.First().ToString();
         }
+
+        public bool IsMatching(string s, string t)
+        {
+            return s.Equals(t);
+        }
     }
 }
