@@ -32,5 +32,10 @@ namespace GITSandboxApp
         {
             return s.Equals(t);
         }
+
+        public int FindHash(string s)
+        {
+            return s.GetHashCode();
+        }
     }
 }
