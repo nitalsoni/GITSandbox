@@ -13,6 +13,11 @@ namespace GITSandboxApp
             return s.ToUpper();
         }
 
+        public string AltLower(string s)
+        {
+            return s.ToLower();
+        }
+
         public override string ToString()
         {
             return "StringExt";
