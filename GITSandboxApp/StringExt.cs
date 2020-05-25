@@ -42,5 +42,11 @@ namespace GITSandboxApp
         {
             return 0;
         }
+
+        public bool IsNumber(string s)
+        {
+            int i;
+            return int.TryParse(s, out i);
+        }
     }
 }
