@@ -17,5 +17,10 @@ namespace GITSandboxApp
         {
             return "StringExt";
         }
+
+        public string FirstUpper(string s)
+        {
+            return s.ToUpper();
+        }
     }
 }
