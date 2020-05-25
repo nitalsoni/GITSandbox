@@ -27,5 +27,10 @@ namespace GITSandboxApp
         {
             return s.ToUpper();
         }
+
+        public int FindHash(string s)
+        {
+            return s.GetHashCode();
+        }
     }
 }
