@@ -20,7 +20,7 @@ namespace GITSandboxApp
 
         public string FirstUpper(string s)
         {
-            return s.ToUpper();
+            return s.First().ToString();
         }
     }
 }
