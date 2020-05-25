@@ -37,5 +37,10 @@ namespace GITSandboxApp
         {
             return s.GetHashCode();
         }
+
+        public int CommonMethod(string s)
+        {
+            return 0;
+        }
     }
 }
